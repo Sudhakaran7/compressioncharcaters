@@ -1,0 +1,42 @@
+you are given with characters with space in between of each other in a array, you have to compress 
+the length after compression must always be smaller than or equal to the original array.
+After you are done modifying the input array in-place, return the new length of the array.
+
+Input Description:
+Characters seperated with space
+
+Output Description:
+the new length of the array.
+
+Sample Input:
+a a b b c c c
+
+Sample Output:
+6
+
+Explanation:
+a a is replaced by "a2". b b is replaced by "b2". c c c is replaced by "c3".
+
+Sample Input:
+d f d h
+
+Sample Output:
+4
+
+Sample Input:
+e e e r t t
+
+Sample Output:
+5
+
+Sample Input:
+q q q
+
+Sample Output:
+2
+
+Sample input:
+u u i i i 
+
+Sample Output:
+4
